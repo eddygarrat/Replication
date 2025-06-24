@@ -1,9 +1,11 @@
-##Table of Contents
--[An abstract toy model for replication]
-   -[Table of contents]
-    -[Introduction]
-    -[Interactions Overview-Hamitonian]
-    -[Soft Res]
+## Table of Contents
+
+- [An abstract toy model for replication](#an-abstract-toy-model-for-replication)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Interactions Overview-Hamiltonian](#interactions-overview-hamiltonian)
+  - [Soft Res](#soft-res)
+
 
 ## Introduction
 Self replication is an attribute of any system to duplicate an produce an identical copy. I try to build a Isling based lattice model for replication Inspired from Micheal Brenner Colloidal cluster replication simulation setup
