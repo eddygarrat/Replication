@@ -6,20 +6,29 @@
   - [Interactions Overview-Hamiltonian](#interactions-overview-hamiltonian)
   - [Soft Res](#soft-res)
 
+## An abstract toy model for replication
 
-#introduction
-Self replication is an attribute of any system to duplicate an produce an identical copy. I try to build a Isling based lattice model for replication Inspired from Micheal Brenner Colloidal cluster replication simulation setup
- Below you 'll see
+## Table of Contents
 
- * An overview of the model
- * a few results
-#interactions-overview-hamiltonian
-We use a 2D grid of spins with a fixed spin structure at a specified position in the Grid.The Hamiltonian for
-this system is the well known 2D isling Hamiltonian, with three types of interactions being involved. Those
-are (i) interaction of spins part of the fixed structure ,(ii) interaction between two dynamic spins and (iii)
-interaction between spins part of the fixed structure and a dynamic spin.From hereforth a dynamic spin is
-labelled as ’D’ and a fixed spin is labelled as ’F’.( Dynamic in the sense that these spin flip constntly whereas
-the Fixed in the sense that they do not flip at all)
-the isling Hamiltonian: H = ∑[i,j] Jij SiSj
+## Introduction
+Self replication is an attribute of any system to duplicate and produce an identical copy. I try to build an Ising based lattice model for replication inspired by Michael Brenner's colloidal cluster replication simulation setup.  
+Below you’ll see:
+
+- An overview of the model  
+- A few results  
+
+## Interactions Overview-Hamiltonian
+We use a 2D grid of spins with a fixed spin structure at a specified position in the grid. The Hamiltonian for
+this system is the well-known 2D Ising Hamiltonian, with three types of interactions involved:  
+(i) interaction of spins part of the fixed structure,  
+(ii) interaction between two dynamic spins, and  
+(iii) interaction between spins part of the fixed structure and a dynamic spin.  
+
+From hereforth, a dynamic spin is labelled as ‘D’ and a fixed spin as ‘F’. (Dynamic spins flip constantly, fixed spins do not flip.)  
+
+The Ising Hamiltonian:  
+$$
+H = \sum_{\langle i,j \rangle} J_{ij} S_i S_j
+$$
 
  
