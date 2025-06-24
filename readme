@@ -3,7 +3,8 @@
 - [An abstract toy model for replication](#an-abstract-toy-model-for-replication)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
-  - [Interactions Overview-Hamiltonian](#interactions-overview-hamiltonian)
+  - <a name="interactions-overview-hamiltonian"></a>
+
   - [Soft Res](#soft-res)
 
 ## An abstract toy model for replication
