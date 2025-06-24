@@ -31,5 +31,9 @@ The Ising Hamiltonian:
 $$
 H = \sum_{\langle i,j \rangle} J_{ij} S_i S_j
 $$
+## Soft Res
+While plotting the number of fixed structures (ns) against the monte carlo steps(MCstep) , it could be seen
+that with allostery there has been an exponential growth. The growth over montecarlo steps in the case of
+no allostery saturates after very large number of montecarlo steps
 
  
