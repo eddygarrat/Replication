@@ -7,13 +7,13 @@
   - [Soft Res](#soft-res)
 
 
-## Introduction
+#introduction
 Self replication is an attribute of any system to duplicate an produce an identical copy. I try to build a Isling based lattice model for replication Inspired from Micheal Brenner Colloidal cluster replication simulation setup
  Below you 'll see
 
  * An overview of the model
  * a few results
-## Interactions Overview-Hamitonian
+#interactions-overview-hamiltonian
 We use a 2D grid of spins with a fixed spin structure at a specified position in the Grid.The Hamiltonian for
 this system is the well known 2D isling Hamiltonian, with three types of interactions being involved. Those
 are (i) interaction of spins part of the fixed structure ,(ii) interaction between two dynamic spins and (iii)
