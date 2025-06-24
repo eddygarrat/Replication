@@ -1,20 +1,23 @@
-## Contents
-- [Interaction Terms](#interaction-terms)
-- [Replication Instructions](#replication-instructions)
-- [Monte Carlo Simulations](#monte-carlo-simulations)
-- [Results & Outputs](#results--outputs)
+##Table of Contents
+-[An abstract toy model for replication]
+   -[Table of contents]
+    -[Introduction]
+    -[Interactions Overview-Hamitonian]
+    -[Soft Res]
 
----
+## Introduction
+Self replication is an attribute of any system to duplicate an produce an identical copy. I try to build a Isling based lattice model for replication Inspired from Micheal Brenner Colloidal cluster replication simulation setup
+ Below you 'll see
 
-## Interaction Terms
+ * An overview of the model
+ * a few results
+## Interactions Overview-Hamitonian
+We use a 2D grid of spins with a fixed spin structure at a specified position in the Grid.The Hamiltonian for
+this system is the well known 2D isling Hamiltonian, with three types of interactions being involved. Those
+are (i) interaction of spins part of the fixed structure ,(ii) interaction between two dynamic spins and (iii)
+interaction between spins part of the fixed structure and a dynamic spin.From hereforth a dynamic spin is
+labelled as ’D’ and a fixed spin is labelled as ’F’.( Dynamic in the sense that these spin flip constntly whereas
+the Fixed in the sense that they do not flip at all)
+the isling Hamiltonian: H = ∑[i,j] Jij SiSj
 
-This project supports **interaction terms** and macro factors integration to improve signal generation and hedge ratio estimation.
-
-- Interaction terms module: `src/interaction_terms.py`
-- Usage: augment your features with polynomial & interaction effects from macro data
-
----
-
-## Replication Instructions
-
-Steps to replicate the entire strategy:
+ 
