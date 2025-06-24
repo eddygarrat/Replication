@@ -1,0 +1,20 @@
+## Contents
+- [Interaction Terms](#interaction-terms)
+- [Replication Instructions](#replication-instructions)
+- [Monte Carlo Simulations](#monte-carlo-simulations)
+- [Results & Outputs](#results--outputs)
+
+---
+
+## Interaction Terms
+
+This project supports **interaction terms** and macro factors integration to improve signal generation and hedge ratio estimation.
+
+- Interaction terms module: `src/interaction_terms.py`
+- Usage: augment your features with polynomial & interaction effects from macro data
+
+---
+
+## Replication Instructions
+
+Steps to replicate the entire strategy:
